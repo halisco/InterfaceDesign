@@ -40,7 +40,7 @@ function playit(_event: Event): void {
     if (numberOf == soundsArrayNumber[0] || numberOf == soundsArrayNumber[soundsArrayNumber.length - 2] + 1) {
         console.log("right");
         let marker: HTMLElement = <HTMLElement>document.getElementById(roleOf + "BT");
-        marker.style.backgroundColor = "red";
+        marker.style.backgroundColor = "violet";
     } else {
         let marker1: HTMLElement = <HTMLElement>document.getElementById("sound1BT");
         let marker2: HTMLElement = <HTMLElement>document.getElementById("sound2BT");
