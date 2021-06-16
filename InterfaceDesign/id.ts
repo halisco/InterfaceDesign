@@ -55,6 +55,7 @@ function playit(_event: Event): void {
         soundsArrayNumber = [];
         soundHtml = [];
         console.log(soundsArray);
+        ////HHHH
     }
 
     // numberArray.push(numberArray[0]);
