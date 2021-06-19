@@ -34,7 +34,7 @@ function playit(_event) {
     if (numberOf == soundsArrayNumber[0] || numberOf == soundsArrayNumber[soundsArrayNumber.length - 2] + 1) {
         console.log("right");
         let marker = document.getElementById(roleOf + "BT");
-        marker.style.backgroundColor = "red";
+        marker.style.backgroundColor = "darkviolet";
     }
     else {
         let marker1 = document.getElementById("sound1BT");
@@ -132,31 +132,31 @@ function checkSound() {
     ident = identTemp.substr(0, identTemp.length - 1) + "Full";
     console.log(ident);
     if (soundsArray[0] == "man1" && soundsArray[1] == "man2" && soundsArray[2] == "man3" && soundsArray[3] == "man4") {
-        soundHtml[0].style.background = "yellow";
-        soundHtml[1].style.background = "yellow";
-        soundHtml[2].style.background = "yellow";
-        soundHtml[3].style.background = "yellow";
+        soundHtml[0].style.background = "#DF7401";
+        soundHtml[1].style.background = "#DF7401";
+        soundHtml[2].style.background = "#DF7401";
+        soundHtml[3].style.background = "#DF7401";
         setTimeout(rightSound, 1500);
     }
     else if (soundsArray[0] == "take1" && soundsArray[1] == "take2" && soundsArray[2] == "take3" && soundsArray[3] == "take4") {
-        soundHtml[0].style.background = "blue";
-        soundHtml[1].style.background = "blue";
-        soundHtml[2].style.background = "blue";
-        soundHtml[3].style.background = "blue";
+        soundHtml[0].style.background = "#045FB4";
+        soundHtml[1].style.background = "#045FB4";
+        soundHtml[2].style.background = "#045FB4";
+        soundHtml[3].style.background = "#045FB4";
         setTimeout(rightSound, 1200);
     }
     else if (soundsArray[0] == "never1" && soundsArray[1] == "never2" && soundsArray[2] == "never3" && soundsArray[3] == "never4") {
-        soundHtml[0].style.background = "violet";
-        soundHtml[1].style.background = "violet";
-        soundHtml[2].style.background = "violet";
-        soundHtml[3].style.background = "violet";
+        soundHtml[0].style.background = "#D358F7";
+        soundHtml[1].style.background = "#D358F7";
+        soundHtml[2].style.background = "#D358F7";
+        soundHtml[3].style.background = "#D358F7";
         setTimeout(rightSound, 2600);
     }
     else if (soundsArray[0] == "brother1" && soundsArray[1] == "brother2" && soundsArray[2] == "brother3" && soundsArray[3] == "brother4") {
-        soundHtml[0].style.background = "green";
-        soundHtml[1].style.background = "green";
-        soundHtml[2].style.background = "green";
-        soundHtml[3].style.background = "green";
+        soundHtml[0].style.background = "#B43104";
+        soundHtml[1].style.background = "#B43104";
+        soundHtml[2].style.background = "#B43104";
+        soundHtml[3].style.background = "#B43104";
         setTimeout(rightSound, 2600);
     }
 }
